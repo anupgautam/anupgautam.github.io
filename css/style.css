@@ -1,0 +1,118 @@
+.fs-16 {
+    font-size: 16px !important;
+    font-weight: 500 !important;
+}
+
+.fw-weight {
+    font-weight: 600 !important;
+}
+
+.text-decorate {
+    text-decoration: none !important;
+}
+
+.border-top {
+    border-top: 2px solid #cfc8c6;
+}
+
+.parallax-image {
+    /* The image used */
+    background-image: url('../image/background.jpg');
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-margin {
+    position: relative;
+    top: 13rem;
+    font-size: 30px !important;
+}
+
+.fs-20 {
+    font-size: 20px !important;
+}
+
+.fs-14 {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+}
+
+.image-size {
+    background: #de4b2d;
+    padding: 9px 9px 9px 9px;
+    border-radius: 50%;
+    border: 2px solid #cdcdce;
+}
+
+.image-size1 {
+    background: white;
+    padding: 9px 9px 9px 9px;
+    border-radius: 50%;
+    border: 2px solid #cdcdce;
+}
+
+.back-ground {
+    background-color: #de4b2d;
+}
+
+.fs-25 {
+    font-size: 25px !important;
+}
+
+.text-color {
+    color: #de4b2d !important;
+}
+
+.fs-22 {
+    font-size: 22px !important;
+}
+
+.fas-12 {
+    font-size: 13px !important;
+}
+
+.border-image {
+    border: 2px solid #aaadaf;
+    border-radius: 50%;
+}
+
+.border-new {
+    border: 1px solid #aaadaf;
+    border-radius: 50%;
+}
+
+.text-left1 {
+    text-align: left !important;
+}
+
+.bor-left {
+    border-left: 4px solid #de4b2d;
+}
+
+.fs-17 {
+    font-size: 17px !important;
+    font-weight: 550 !important;
+}
+
+.flex-color {
+    background-color: #35c9e0!important;
+}
+
+.image-back {
+    background-image: url('../image/block.png');
+    background-size: cover !important;
+}
+.maps-height{
+    height: 300px !important;
+}
+.fo-weight{
+    font-family: 'Open Sans', sans-serif;
+}
+.fw-weight2{
+    font-weight: 700 !important;
+}
