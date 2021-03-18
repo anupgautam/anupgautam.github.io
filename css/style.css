@@ -1,3 +1,6 @@
+body{
+    scroll-behavior: smooth;
+}
 .fs-16 {
     font-size: 16px !important;
     font-weight: 500 !important;
@@ -15,17 +18,14 @@
     border-top: 2px solid #cfc8c6;
 }
 
-.parallax-image {
-    /* The image used */
+/* .parallax-image {
     background-image: url('../image/background.jpg');
-    /* Set a specific height */
     min-height: 500px;
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 
 .text-margin {
     position: relative;
@@ -43,15 +43,15 @@
 }
 
 .image-size {
-    background: #de4b2d !important;
+    background: #3e6493 !important;
     padding: 36px !important;
     border-radius: 50% !important;
     border: 2px solid #cdcdce !important;
 }
 .image-size:hover{
     background-color: white !important;
-    border: 2px solid #de4b2d !important;
-    color: #de4b2d !important;
+    border: 2px solid #3e6493 !important;
+    color: #3e6493 !important;
 }
 
 .image-size1 {
@@ -61,13 +61,13 @@
     border: 2px solid #cdcdce;
 }
 .image-size1:hover{
-    background-color: #de4b2d;
+    background-color: #3e6493;
     border: 2px solid #cdcdce;
     color: white !important;
 }
 
 .back-ground {
-    background-color: #de4b2d;
+    background-color: #3e6493;
 }
 
 .fs-25 {
@@ -75,7 +75,7 @@
 }
 
 .text-color {
-    color: #de4b2d !important;
+    color: #3e6493 !important;
 }
 
 .fs-22 {
@@ -101,7 +101,7 @@
 }
 
 .bor-left {
-    border-left: 4px solid #de4b2d;
+    border-left: 4px solid #3e6493;
 }
 
 .fs-17 {
@@ -110,7 +110,7 @@
 }
 
 .flex-color {
-    background-color: #35c9e0!important;
+    background-color: #e5edf4 !important;
 }
 
 .image-back {
@@ -121,11 +121,54 @@
     height: 300px !important;
 }
 .fo-weight{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .fw-weight2{
     font-weight: 700 !important;
 }
 .fs-24{
     font-size: 24px !important;
+}
+.new-color{
+    background: #e5edf4 !important;
+}
+.mar-top{
+    margin-top: 6rem;
+}
+.icon-transform{
+    background: #e5edf4;
+    width: 42%;
+    padding: 14px 0px 14px 0px !important;
+    margin: 0 auto;
+    border-radius: 8px;
+    transform: rotate(
+-12deg
+)
+}
+.icon-rotate{
+    transform: rotate(
+        12deg
+        );
+}
+.fas-14{
+    font-size: 14px !important;
+    font-weight: 550 !important;
+}
+.mar-left{
+    margin-left: 2rem;
+}
+.mar-smart{
+    margin-left: 5.5rem;
+}
+.mar-enter{
+    margin-left: 4rem;
+}
+.mar-block{
+    margin-left: 3rem;
+}
+.nav-bar-font{
+    font-family: 'Source Sans Pro', sans-serif  !important;
+}
+.btn-style{
+    right: 0;
 }

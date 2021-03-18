@@ -9,20 +9,22 @@
     <meta content="" name="keywords">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="./js/app.js">
 </head>
 
 <body class="image-back fo-weight">
     <main class="container-fluid p-0">
-        <header class="bg-white p-2 border-top">
+        <header class="bg-white p-2 border-top nav-bar-font">
             <div class="container p-0">
                 <div class="row m-0">
                     <div class="col-2 p-0">
-                        <h1 class="fs-20 text-color pt-2 font-weight-bold">PASTEL SOFT</h1>
+                        <h1 class="fs-20 text-color pt-3 font-weight-bold">PASTEL SOFT</h1>
                     </div>
                     <div class="col-3 p-0"></div>
                     <div class="col p-0">
@@ -32,8 +34,8 @@
                                 <li class="d-inline-block px-2 pr-3 pt-3"><a class="text-color fs-16 fw-weight text-decorate" href="#services">Our Services</a></li>
                                 <li class="d-inline-block px-2 pr-3 pt-3"><a class="text-color fs-16 fw-weight text-decorate" href="#missions">Our Missions</a></li>
                                 <li class="d-inline-block px-2 pr-3 pt-3"><a class="text-color fs-16 fw-weight text-decorate" href="#founders">Founders</a></li>
-                                <li class="d-inline-block px-2 pr-3 pt-3"><a class="text-color fs-16 fw-weight text-decorate" href="#contact-us">Contact</a></li>
                                 <li class="d-inline-block px-2 pr-3 pt-3"><a class="text-color fs-16 fw-weight text-decorate" href="#about-us">About</a></li>
+                                <li class="d-inline-block pt-3 " ><a class="fs-16 fw-weight text-decorate px-4 back-ground py-2 rounded text-white" href="#contact-us">Contact</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -41,27 +43,47 @@
             </div>
         </header>
         <section class="container-fluid p-0 pb-4">
-            <div class="parallax-image">
-                <div class="col-10 p-0 m-auto " height="500px">
-                    <h1 class="text-light text-center font-weight-bold text-margin " data-aos="fade-up">BRIDGING KNOWLEDGE, SERVICES AND INDIVIDUALS WITH BLOCKCHAIN TECHNOLOGY AND FINTECH</h1>
+            <div class="new-color py-5">
+                <div class="container p-0">
+                    <div class="row m-0">
+                        <div class="col p-0 text-center" data-aos="fade-right"
+                        data-aos-anchor="#example-anchor"
+                        data-aos-offset="500"
+                        data-aos-duration="1500">
+                            <div class="mb-3 mar-top">
+                                <h1 class="text-color font-weight-bold fs-24 ">BRIDGING KNOWLEDGE, SERVICES AND INDIVIDUALS WITH BLOCKCHAIN TECHNOLOGY AND FINTECH</h1>
+                            </div>
+                            <a href="home.html" class=""><button class="btn back-ground border rounded text-white fw-weight px-4 py-2">Get Started</button></a>
+                        </div>
+                        <div class="col p-0">
+                            <img src="./image/block-chain.png" class="w-100 w3-animate-zoom" alt="decentralized" data-aos="fade-left"
+                            data-aos-anchor="#example-anchor"
+                            data-aos-offset="500"
+                            data-aos-duration="1500">
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="row m-0">
-                <div class="col p-0 py-5 bg-light">
+                <div class="col p-0 py-5 bg-light" data-aos="fade-right"
+                data-aos-offset="400"
+                data-aos-easing="ease-in-sine">
                     <div class="col-8 m-auto p-0">
                         <div class="row m-0" >
                             <div class="col p-0 pt-3 ml-3">
                                 <!-- <img src="./image/rocket.png" width="50%" class="image-size" alt=""> -->
                                 <i class="fas fa-rocket fa-2x image-size text-white" ></i>
                             </div>
-                            <div class="col p-0">
+                            <div class="col p-0" >
                                 <h1 class="fs-20 font-weight-bold">START UP</h1>
                                 <p class="fs-14">Investment Sourcing and Product Marketing Fit Consulting, Recruiting Talent, Access to the Bay Area technology and Funds for International Startups.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col p-0 py-5 back-ground">
+                <div class="col p-0 py-5 back-ground" data-aos="fade-bottom"
+                data-aos-offset="400"
+                data-aos-easing="ease-in-sine">
                     <div class="col-7 m-auto p-0">
                         <div class="row m-0 w3-animate-bottom">
                             <div class="col p-0 pt-3 ml-3">
@@ -77,75 +99,139 @@
                 </div>
             </div>
             <div class="container p-0 mt-5" id="services">
-                <div class="mb-5">
+                <div>
+                    <div class="mb-5">
+                        <h1 class="fs-25 font-weight-bold text-center text-color text-uppercase">The Pastel Experience</h1>
+                    </div>
+                    <div class="mt-4">
+                        <div class="row m-0">
+                            <div class="col p-4 shadow rounded bg-white mr-4 text-center" data-aos="fade-up"
+                            data-aos-anchor-placement="top-bottom" data-aos-offset="500"
+                            data-aos-duration="500" >
+                                <div class="text-center icon-transform">
+                                    <i class="fas fa-shield-alt fa-4x text-color icon-rotate"></i>
+                                </div>
+                                <div class="">
+                                    <h1 class="text-color fs-20 font-weight-bold mt-3 mb-2">Secure</h1>
+                                </div>
+                                <div class="">
+                                    <p class="fs-14 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, recusandae velit. Amet voluptatum maxime asperiores nesciunt. Asperiores doloremque iure perspiciatis!</p>
+                                </div>
+                            </div>
+                            <div class="col p-4 shadow rounded bg-white mr-4 text-center" data-aos="fade-up"
+                            data-aos-anchor-placement="top-bottom" data-aos-offset="500"
+                            data-aos-duration="500">
+                                <div class="text-center icon-transform">
+                                    <i class="fas fa-signal fa-4x text-color icon-rotate"></i>
+                                </div>
+                                <div class="">
+                                    <h1 class="text-color fs-20 font-weight-bold mt-3 mb-2">Accurate</h1>
+                                </div>
+                                <div class="">
+                                    <p class="fs-14 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, recusandae velit. Amet voluptatum maxime asperiores nesciunt. Asperiores doloremque iure perspiciatis!</p>
+                                </div>
+                            </div>
+                            <div class="col p-4 shadow rounded bg-white mr-4 text-center" data-aos="fade-up"
+                            data-aos-anchor-placement="top-bottom" data-aos-offset="500"
+                            data-aos-duration="500">
+                                <div class="text-center icon-transform">
+                                    <i class="fas fa-globe fa-4x text-color icon-rotate"></i>
+                                </div>
+                                <div class="">
+                                    <h1 class="text-color fs-20 font-weight-bold mt-3 mb-2">Accessible</h1>
+                                </div>
+                                <div class="">
+                                    <p class="fs-14 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, recusandae velit. Amet voluptatum maxime asperiores nesciunt. Asperiores doloremque iure perspiciatis!</p>
+                                </div>
+                            </div>
+                            <div class="col p-4 shadow rounded bg-white text-center" data-aos="fade-up"
+                            data-aos-anchor-placement="top-bottom" data-aos-offset="500"
+                            data-aos-duration="500">
+                                <div class="text-center ">
+                                    <img src="./image/seamless.svg" alt="seamless">
+                                </div>
+                                <div class="">
+                                    <h1 class="text-color fs-20 font-weight-bold mt-3 mb-2">Seamless</h1>
+                                </div>
+                                <div class="">
+                                    <p class="fs-14 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, recusandae velit. Amet voluptatum maxime asperiores nesciunt. Asperiores doloremque iure perspiciatis!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-5 mb-5">
                     <h1 class="fs-25 font-weight-bold text-center text-color text-uppercase">Our Services</h1>
                 </div>
                 <div class="row m-0">
                     <div class="col p-0">
-                        <img src="./image/decentralized.png" class="w-100 w3-animate-zoom" alt="decentralized">
                     </div>
-                    <div class="col p-0 w3-animate-right">
-                        <h1 class="fs-20 fw-weight2">DECENTRALIZED APPLICATION</h1>
-                        <ul>
-                            <li class="fs-17">DeFi applications</li>
-                            <li class="fs-17">DAO - Decentralized autonomous organization</li>
-                            <li class="fs-17">Crypto wallets</li>
-                            <li class="fs-17">Crypto games</li>
+                    <div class="col p-0 w3-animate-right" data-aos="fade-down"
+                    data-aos-duration="2000">
+                        <img src="./image/decentralized.png" class="w-100" alt="decentralized">
+                        <h1 class="fs-20 fw-weight2 mt-3 text-center">DECENTRALIZED APPLICATION</h1>
+                        <ul class="mar-left">
+                            <li class="fas-14">DeFi applications</li>
+                            <li class="fas-14">DAO - Decentralized autonomous organization</li>
+                            <li class="fas-14">Crypto wallets</li>
+                            <li class="fas-14">Crypto games</li>
                         </ul>
                     </div>
+                    <div class="col p-0"></div>
                 </div>
-                <div class="row m-0 mt-5">
-                    <div class="col p-0">
-                        <h1 class="fs-20 fw-weight2 w3-animate-left">SMART CONTRACTS</h1>
-                        <ul>
-                            <li class="fs-17">Smart contracts</li>
-                            <li class="fs-17">Stablecoin development</li>
-                            <li class="fs-17">NFTs and Fungible Tokens development</li>
-                            <li class="fs-17">Token emission and distribution</li>
-                        </ul>
-                    </div>
-                    <div class="col p-0">
+                <div class="row m-0">
+                    <div class="col p-0" data-aos="fade-right"
+                    data-aos-duration="2000">
                         <img src="./image/smart-contract.png" class="w-100 w3-animate-zoom" alt="decentralized">
+                        <h1 class="fs-20 fw-weight2 text-center mt-3">SMART CONTRACTS</h1>
+                        <ul class="mar-smart">
+                            <li class="fas-14">Smart contracts</li>
+                            <li class="fas-14">Stablecoin development</li>
+                            <li class="fas-14">NFTs and Fungible Tokens development</li>
+                            <li class="fas-14">Token emission and distribution</li>
+                        </ul>
                     </div>
-                </div>
-                <div class="row m-0 mt-5">
                     <div class="col p-0">
+                        <img src="./image/arrow.png"  class="w-100"  alt="arrow">
+                    </div>
+                    <div class="col p-0" data-aos="fade-left"
+                    data-aos-duration="2000">
                         <img src="./image/enter-new.png" class="w-100 w3-animate-zoom" alt="decentralized">
-                    </div>
-                    <div class="col p-0 w3-animate-right">
-                        <h1 class="fs-20 fw-weight2">ENTERPRISE SOLUTIONS</h1>
-                        <ul>
-                            <li class="fs-17">Governance (voting) systems</li>
-                            <li class="fs-17">Logistics solutions</li>
-                            <li class="fs-17">Supply chains</li>
-                            <li class="fs-17">Compliance system</li>
+                        <h1 class="fs-20 fw-weight2 text-center mt-3">ENTERPRISE SOLUTIONS</h1>
+                        <ul class="mar-enter">
+                            <li class="fas-14">Governance (voting) systems</li>
+                            <li class="fas-14">Logistics solutions</li>
+                            <li class="fas-14">Supply chains</li>
+                            <li class="fas-14">Compliance system</li>
                         </ul>
                     </div>
                 </div>
-                <div class="row m-0 mt-5">
-                    <div class="col p-0">
-                        <h1 class="fs-20 fw-weight2 w3-animate-left">BLOCKCHAIN INTEGRATION</h1>
-                        <ul>
-                            <li class="fs-17">Blockchain based micropayment services</li>
-                            <li class="fs-17">Decentralized marketplaces</li>
-                            <li class="fs-17">CRM/ERP blockchain integration</li>
+                <div class="row m-0">
+                    <div class="col p-0"></div>
+                    <div class="col p-0" data-aos="fade-up"
+                    data-aos-duration="2000">
+                        <img src="./image/block-chain.png" class="w-100 w3-animate-zoom" alt="decentralized">
+                        <h1 class="fs-20 fw-weight2 text-center mt-3">BLOCKCHAIN INTEGRATION</h1>
+                        <ul class="mar-block">
+                            <li class="fas-14">Blockchain based micropayment services</li>
+                            <li class="fas-14">Decentralized marketplaces</li>
+                            <li class="fas-14">CRM/ERP blockchain integration</li>
                         </ul>
                     </div>
-                    <div class="col p-0" data-aos="fade-up">
-                        <img src="./image/block-chain.png" class="w-100 w3-animate-zoom" alt="decentralized">
+                    <div class="col p-0">
                     </div>
                 </div>
             </div>
             <div class="mt-4" id="missions">
                 <div class="row m-0 shadow-sm">
-                    <div class="col p-5 flex-color">
+                    <div class="col p-5 flex-color" data-aos="zoom-out-right" data-aos-duration="2000">
                         <div class="col-10 p-0 ml-auto bor-left">
-                            <h1 class="fs-22 text-white ml-4 font-weight-bold">MISSION</h1>
-                            <p class="text-white ml-4 text-justify fs-17">Our goal is to help companies incorporate emerging technologies such as Blockchain and AI intheir business processes in a cost-effective manner.</p>
+                            <h1 class="fs-22 text-color ml-4 font-weight-bold">MISSION</h1>
+                            <p class="text-dark ml-4 text-justify fas-14">Our goal is to help companies incorporate emerging technologies such as Blockchain and AI intheir business processes in a cost-effective manner.</p>
                         </div>
                     </div>
-                    <div class="col p-5 bg-white">
-                        <div class="col-3 p-0 m-auto">
+                    <div class="col p-5 bg-white" data-aos="zoom-out-right" data-aos-duration="2000">
+                        <div class="col-2 p-0 m-auto">
                             <img src="./image/core_values.jpg" class="w-100" alt="core_values">
                         </div>
                     </div>
@@ -162,21 +248,21 @@
                                 <h1 class="fs-20 text-white font-weight-bold pl-3">Location</h1>
                             </div>
                             <div class="d-flex pt-3 border-bottom border-2 pl-3 mb-0">
-                                <i class="fas fa-map-marker-alt fa-2x mr-1 text-secondary"></i>
-                                <p class="fs-17 ms-2 text-decoration-none fw-bolder text-secondary mt-1">: Chitwan, Nepal.</p>
+                                <i class="fas fa-map-marker-alt fs-24 mr-1 text-secondary"></i>
+                                <p class="fas-14 ms-2 text-decoration-none fw-bolder text-secondary mt-1">: Chitwan, Nepal.</p>
                             </div>
                             <div class="d-flex pt-2 border-bottom border-2 pl-3 mb-0">
-                                <i class="fas fa-envelope-square fa-2x mr-1 text-secondary"></i>
-                                <p class="fs-17 ms-2 text-decoration-none fw-bolder text-secondary mt-1">: +1-573-823-4894, +977-9860144817</p>
+                                <i class="fas fa-envelope-square fs-24 mr-1 text-secondary"></i>
+                                <p class="fas-14 ms-2 text-decoration-none fw-bolder text-secondary mt-1">: +1-573-823-4894, +977-9860144817</p>
                             </div>
                             <div class="d-flex pt-2 border-bottom border-2 pl-3 mb-0">
-                                <i class="fas fa-phone-square fa-2x mr-1 text-secondary"></i>
-                                <p class="fs-17 ms-2 text-decoration-none fw-bolder text-secondary mt-1"> : contact@pastel-soft.com</p>
+                                <i class="fas fa-phone-square fs-24 mr-1 text-secondary"></i>
+                                <p class="fas-14 ms-2 text-decoration-none fw-bolder text-secondary mt-1"> : contact@pastel-soft.com</p>
                             </div>
                         </div>
                     </div>
                     <div class="col p-0 ml-4">
-                        <div className=" width-mar p-0 col-md p-0 res-height res-padding mt-1">
+                        <div className=" width-mar p-0 col-md p-0 res-height res-padding mt-1" >
                             <div id="googlemaps-canvas" className="maps-height" height="190px" width="100%"><iframe height="170px" width="100%" className="w-100 border-0" frameborder="0" src="https://www.google.com/maps/embed/v1/search?q=kuleshowor&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
                             </div>
                             <a className="codefor-googlemap" href="https://www.embed-map.com" id="authorizemap-data">https://www.embed-map.com</a>
@@ -185,10 +271,10 @@
                 </div>
                 <div class="mt-5" id="about-us">
                     <div class="row m-0">
-                        <div class="col-6 p-0">
+                        <div class="col-6 p-0" >
                             <div>
                                 <h1 class="fs-25 font-weight-bold text-left text-color text-uppercase mb-3">About Us</h1>
-                                <p class="text-justify fs-16">Located in Chitwan, Nepal, Pastel is one of the fastest growing technology companies in SouthAsia. In just 2 years of its formation, we have supported 8+ companies through their projects inBlockchain, Data Science, AI and Application Development. With a highly skilled developmentteam along with sound management, we aim to help our customers to implement newtechnologies and maximize their productivity. We will work with you to plan strategies that suityour business and that can yield maximum benefits to your company.</p>
+                                <p class="text-justify fs-14">Located in Chitwan, Nepal, Pastel is one of the fastest growing technology companies in SouthAsia. In just 2 years of its formation, we have supported 8+ companies through their projects inBlockchain, Data Science, AI and Application Development. With a highly skilled developmentteam along with sound management, we aim to help our customers to implement newtechnologies and maximize their productivity. We will work with you to plan strategies that suityour business and that can yield maximum benefits to your company.</p>
                             </div>
                             <div class="mt-2" id="founders">
                                 <h1 class="fs-17 font-weight-bold text-color text-uppercase mb-1">Founders</h1>
@@ -204,6 +290,9 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="fixed-bottom">
+                <button class="back-color btn-style" onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-users"></i></button>
             </div>
         </section>
         <footer class="container-fluid p-2 bg-dark">
@@ -245,7 +334,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 <script>
-      AOS.init();
+    AOS.init();
 </script>
+
 </html>
